@@ -3,35 +3,47 @@ import { ExternalLink, Github, Star } from "lucide-react";
 
 const projectsData = [
   {
-    title: "AI-Powered Healthcare Diagnostic System",
-    description:
-      "Deep learning model for early disease detection using medical imaging. Achieved 94% accuracy on test dataset.",
-    image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&auto=format&fit=crop",
-    technologies: ["Python", "TensorFlow", "OpenCV", "Flask", "Docker"],
-    github: "#",
-    live: "#",
-    featured: true,
-  },
+  title: "TrustCast – Cyber Threat Detection System",
+  description:
+    "TrustCast is an AI-driven cybersecurity platform designed to analyze network logs and detect potential cyber threats in real time. The system processes uploaded log files, extracts attack patterns, and visualizes threat intelligence through an interactive dashboard. It helps security analysts identify malicious activities, monitor attack types, and understand system vulnerabilities using machine learning–based analysis.",
+  image: "/src/assets/Trustcast.jpg",
+  technologies: ["Python", "Machine Learning", "React", "FastApi", "Dashboard"],
+  github: "https://github.com/Shravani-std/TrustCast",
+  live: "#",
+  // featured: true,
+},
+
+
   {
-    title: "Smart Agriculture IoT Platform",
-    description:
-      "IoT-based system with ML algorithms for crop yield prediction and automated irrigation management.",
-    image: "https://images.unsplash.com/photo-1625246333195-78d9c38ad449?w=800&auto=format&fit=crop",
-    technologies: ["Python", "Scikit-learn", "Arduino", "React", "MongoDB"],
-    github: "#",
-    live: "#",
-    featured: true,
-  },
+  title: "Student Performance Indicator",
+  description:
+    "Machine learning project that analyzes and predicts student test scores based on factors such as gender, ethnicity, parental education level, lunch type, and test preparation. The system includes a complete ML pipeline with data ingestion, preprocessing, regression model training, and prediction through a Flask-based web application. It also provides visual insights into how different factors influence academic performance.",
+  image: "/src/assets/std_per_ind.jpg",
+  technologies: [
+    "Python",
+    "Pandas",
+    "NumPy",
+    "Scikit-learn",
+    "Matplotlib",
+    "Seaborn",
+    "Flask"
+  ],
+  github: "https://github.com/Shravani-std/-Student-Performance-Indicator-ML-",
+  live: "#",
+  // featured: true,
+},
+
+
   {
-    title: "Real-Time Sentiment Analysis Dashboard",
-    description:
-      "NLP-based platform for monitoring social media sentiment with live visualization and trend analysis.",
-    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&auto=format&fit=crop",
-    technologies: ["Python", "BERT", "React", "Node.js", "WebSocket"],
-    github: "#",
-    live: "#",
-    featured: false,
-  },
+  title: "OpenCV Computer Vision Projects",
+  description:
+    "Collection of computer vision applications developed using OpenCV and deep learning techniques. Projects include face recognition-based attendance system, vehicle detection, drowsiness detection, road sign recognition, and object detection using MobileNetSSD. These projects demonstrate real-time image processing, feature extraction, and deep learning-based visual recognition.",
+  image: "public/open_cv.jpg",
+  technologies: ["Python", "OpenCV", "Deep Learning", "TensorFlow", "Computer Vision"],
+  github: "https://github.com/Shravani-std/OpenCV_projects",
+  live: "#",
+  // featured: true,
+},
   {
     title: "Object Detection for Autonomous Vehicles",
     description:
