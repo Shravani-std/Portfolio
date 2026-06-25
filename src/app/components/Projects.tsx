@@ -55,25 +55,43 @@ const projectsData = [
     featured: false,
   },
   {
-    title: "Chatbot with Natural Language Understanding",
-    description:
-      "Intelligent conversational AI with context awareness and multi-language support using transformer models.",
-    image: "https://images.unsplash.com/photo-1531746790731-6c087fecd65a?w=800&auto=format&fit=crop",
-    technologies: ["Python", "Transformers", "FastAPI", "React", "Redis"],
-    github: "#",
-    live: "#",
-    featured: false,
-  },
-  {
-    title: "Stock Price Prediction Model",
-    description:
-      "Time-series forecasting using LSTM networks for predicting stock market trends with technical indicators.",
-    image: "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800&auto=format&fit=crop",
-    technologies: ["Python", "Keras", "Pandas", "Plotly", "Streamlit"],
-    github: "#",
-    live: "#",
-    featured: false,
-  },
+  title: "K-Shala - Smart Learning Management System",
+   description:
+    "A full-stack MERN-based e-learning platform that enables students to access interactive courses",
+    image: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&auto=format&fit=crop",
+    technologies: [
+    "MongoDB",
+    "Express.js",
+    "React.js",
+    "Node.js",
+    "JWT",
+    "REST API",
+    "Tailwind CSS"
+  ],
+  github: "#",
+  live: "https://k-shala-umber.vercel.app/",
+  featured: true,
+},
+  // {
+  //   title: "Chatbot with Natural Language Understanding",
+  //   description:
+  //     "Intelligent conversational AI with context awareness and multi-language support using transformer models.",
+  //   image: "https://images.unsplash.com/photo-1531746790731-6c087fecd65a?w=800&auto=format&fit=crop",
+  //   technologies: ["Python", "Transformers", "FastAPI", "React", "Redis"],
+  //   github: "#",
+  //   live: "#",
+  //   featured: false,
+  // },
+  // {
+  //   title: "Stock Price Prediction Model",
+  //   description:
+  //     "Time-series forecasting using LSTM networks for predicting stock market trends with technical indicators.",
+  //   image: "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800&auto=format&fit=crop",
+  //   technologies: ["Python", "Keras", "Pandas", "Plotly", "Streamlit"],
+  //   github: "#",
+  //   live: "#",
+  //   featured: false,
+  // },
 ];
 
 export function Projects() {

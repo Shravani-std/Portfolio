@@ -40,6 +40,32 @@ const experienceData = [
     ],
     technologies: ["Python", "OpenCV", "TensorFlow", "Keras", "Scikit-learn", "NLP (NLTK)", "ML & DL" , "Dialogflow"," OCR (Tesseract)"],
   },
+  {
+  role: "Software Engineer Trainee",
+  company: "Kshetrapati Industries Pvt. Ltd.",
+  location: "Kolhapur",
+  period: "May 2026 - Present",
+  type: "Trainee",
+  responsibilities: [
+    "Developing and maintaining full-stack web applications using the MERN stack and modern web technologies.",
+    "Building and enhancing the K-Shala e-learning platform by implementing new features and improving user experience.",
+    "Collaborating with the development team on requirement analysis, API integration, debugging, and deployment activities."
+  ],
+  technologies: [
+    "React.js",
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "JavaScript",
+    "REST APIs",
+    "Git",
+    "GitHub",
+    "Tailwind CSS",
+    "RAG",
+    "ChatBot Development",
+    "LangChain",
+  ],
+},
 ];
 
 export function Experience() {
