@@ -44,16 +44,7 @@ const projectsData = [
   live: "#",
   // featured: true,
 },
-  {
-    title: "Object Detection for Autonomous Vehicles",
-    description:
-      "Computer vision system for real-time object detection and tracking using YOLO and transfer learning.",
-    image: "https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?w=800&auto=format&fit=crop",
-    technologies: ["Python", "PyTorch", "YOLO", "OpenCV", "ROS"],
-    github: "#",
-    live: "#",
-    featured: false,
-  },
+  
   {
   title: "K-Shala - Smart Learning Management System",
    description:

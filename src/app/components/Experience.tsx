@@ -40,7 +40,7 @@ const experienceData = [
     ],
     technologies: ["Python", "OpenCV", "TensorFlow", "Keras", "Scikit-learn", "NLP (NLTK)", "ML & DL" , "Dialogflow"," OCR (Tesseract)"],
   },
-  {
+{
   role: "Software Engineer Trainee",
   company: "Kshetrapati Industries Pvt. Ltd.",
   location: "Kolhapur",
@@ -65,6 +65,10 @@ const experienceData = [
     "ChatBot Development",
     "LangChain",
   ],
+  offerLetter: {
+    title: "View Offer Letter",
+    url: "/certificates/Shravani_Tingare_Offer_Letter.pdf",
+  },
 },
 ];
 
@@ -142,16 +146,48 @@ export function Experience() {
                     </div>
 
                     {/* Technologies */}
-                    <div className="flex flex-wrap gap-2">
-                      {exp.technologies.map((tech, i) => (
-                        <span
-                          key={i}
-                          className="text-xs px-3 py-1 rounded-full bg-purple-500/10 text-purple-300 border border-purple-500/20"
-                        >
-                          {tech}
-                        </span>
-                      ))}
-                    </div>
+<div className="flex flex-wrap gap-2">
+  {exp.technologies.map((tech, i) => (
+    <span
+      key={i}
+      className="text-xs px-3 py-1 rounded-full bg-purple-500/10 text-purple-300 border border-purple-500/20"
+    >
+      {tech}
+    </span>
+  ))}
+</div>
+
+{/* Offer Letter */}
+{exp.offerLetter && (
+  <div className="mt-5">
+    <a
+      href={exp.offerLetter.url}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-purple-600 hover:bg-purple-700 text-white text-sm transition-all duration-300"
+    >
+      📄 {exp.offerLetter.title}
+    </a>
+  </div>
+)}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                   </div>
                 </div>
 
